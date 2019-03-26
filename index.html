@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <HTML>
   <head>
-    <link rel="stylesheet" href="styles.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
     <title>My Cat Blog</title>
   </head>
   <body>
-    <h1 class="nice">I love my three cats:</h1>
-      <ul class="nice">
-        <li>Sparkles</li>
-        <li>Bubbles</li>
-        <li>Sully</li>
-      </ul>
+    <div class="container">
 
-    <h2 class="nice">Sparkles</h2>
-      <p class="nice">Sparkles is definitely the laziest of them all. He sleeps all day and only gets up to eat.</p>
+      <div class="header jumbotron">
+        <h1>I love my three cats:</h1>
+        <ul>
+          <li><button class="btn btn-info" id="lightblue">Sparkles</button></li>
+          <li><button class="btn btn-primary" id="darkblue">Bubbles</button></li>
+          <li><button class="btn btn-warning" id="orange">Sully</button></li>
+        </ul>
+      </div>
 
-    <h2 class="wow">Bubbles</h2>
-      <p class="wow">Bubbles is the odd one out of the bunch because he thinks that he is a dog.
-        He chases the other cats around and even knows how to play fetch.</h2>
+      <div class="cat-container" id="sparkles">
+        <h2>Sparkles</h2>
+        <p>Sparkles is definitely the laziest of them all. He sleeps all day and only gets up to eat. Sparkles is all about the Benjamins.</p>
+      </div>
 
-    <h2 class="cool">Sully</h2>
-      <p class="cool">Sully is just your average cat. His favorite thing is catnip.<p>
+      <div class="cat-container" id="bubbles">
+        <h2>Bubbles</h2>
+        <p>Bubbles is the odd one out of the bunch because he thinks that he is a dog. He chases the other cats around and even knows how to play fetch.</h2>
+      </div>
+
+      <div class="cat-container" id="sully">
+        <h2>Sully</h2>
+        <p>Sully is just your average flirty cat. His favorite thing is catnip and the ladies.<p>
+      </div>
+
+    </div>
   </body>
 </HTML>

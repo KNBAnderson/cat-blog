@@ -1,0 +1,30 @@
+.cat-container {
+  background-color: green;
+  font-family: fantasy;
+  font-size: 3em;
+  /* display: none; */
+}
+.lightblue-background {
+  background-color: purple;
+}
+.darkblue {
+  background-color: red;
+}
+.orange {
+  background-color: green;
+}
+.appear {
+  display: block;
+}
+
+#sparkles{
+  display: none;
+}
+
+#bubbles{
+  display: none;
+}
+
+#sully{
+  display: none;
+}
